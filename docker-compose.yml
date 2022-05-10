@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  work-env:
+    tty: true
+    container_name: work_env
+    build: . 
+    volumes:
+      - ./:/usr/work_env/
+    
